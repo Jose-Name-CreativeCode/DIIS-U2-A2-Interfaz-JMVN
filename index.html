@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Nómina - Tornillos MX</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Sistema de Nómina</h1>
+      <h2>Tornillos MX, S.A. de C.V.</h2>
+
+      <section class="formulario">
+        <h3>Gestión de empleados</h3>
+
+        <label for="numero">Número de empleado:</label>
+        <input type="text" id="numero" placeholder="Ej. 001" />
+
+        <label for="nombre">Nombre del empleado:</label>
+        <input type="text" id="nombre" placeholder="Ej. Juan Pérez" />
+
+        <label for="sueldo">Sueldo:</label>
+        <input type="number" id="sueldo" placeholder="Ej. 12000" />
+
+        <div class="botones">
+          <button>Alta</button>
+          <button>Baja</button>
+          <button>Modificar</button>
+          <button>Consultar</button>
+          <button>Limpiar</button>
+        </div>
+      </section>
+
+      <section class="busqueda">
+        <h3>Búsqueda de empleado</h3>
+
+        <label for="buscar">Buscar por número:</label>
+        <input type="text" id="buscar" placeholder="Número de empleado" />
+        <button>Buscar</button>
+      </section>
+
+      <section class="reportes">
+        <h3>Reportes</h3>
+
+        <button>Reporte general de empleados</button>
+        <button>Reporte de nómina</button>
+        <button>Imprimir</button>
+        <button>Exportar</button>
+      </section>
+
+      <section class="tabla">
+        <h3>Lista de empleados</h3>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Número</th>
+              <th>Nombre</th>
+              <th>Sueldo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>Juan Pérez</td>
+              <td>$12,000</td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>Jose Manuel Naredo</td>
+              <td>$14,500</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
